@@ -1,10 +1,9 @@
-
 import './App.css';
-
+import ClothingForm from './components/ClothingForm';
 function App() {
   return (
-    <div></div>
-  );
+    <ClothingForm/>
+  )
 }
 
 export default App;
