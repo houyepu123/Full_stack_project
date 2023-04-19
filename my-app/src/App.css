@@ -1,10 +1,8 @@
-.clothing-form-container {
+form {
   display: flex;
   flex-direction: column;
   justify-content: center; /* Center vertically */
   align-items: center; /* Center horizontally */
-  height: 110vh; /* Set the height to 100% of the viewport height */
-  padding: 1rem; /* Add some padding for spacing */
   font-family: sans-serif;
   max-width: 600px; /* Set a max-width to shrink the form */
   margin: 0 auto; /* Center horizontally */
