@@ -6,25 +6,25 @@ form {
     font-family: sans-serif;
     max-width: 600px; /* Set a max-width to shrink the form */
     margin: 0 auto; /* Center horizontally */
-  }
-  h1{
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #525a5a;
-    text-align: center;
-    margin: 1rem 0;
-  }
-  body {
-    background: linear-gradient(to bottom, #FFDAB9, #ADD8E6);
-  }
+}
+h1{
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #525a5a;
+  text-align: center;
+  margin: 1rem 0;
+}
+body {
+  background-color: lightblue;
+}
   
-  label {
-    display: flex;
-    flex-direction: column;
-    margin: 1rem 0;
-    width: 100%;
-    color: #525a5a;
-  }
+label {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+  width: 100%;
+  color: #525a5a;
+}
   
   input,
   select,

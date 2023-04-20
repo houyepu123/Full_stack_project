@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import LandingPage from './components/LandingPage';
-import Consumer from './components/Consumer';
+import Consumer from './components/Consumer/Consumer';
 import JobPosting from './components/JobPosting';
 
 function App() {

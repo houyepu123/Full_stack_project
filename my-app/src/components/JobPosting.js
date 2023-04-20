@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-
+import Modal from './Modal/Modal';
 function JobPosting() {
   const [jobs, setJobs] = useState([]);
   const [selectedLocation, setSelectedLocation] = useState(null);
@@ -72,8 +72,36 @@ function JobPosting() {
           ))}
         </tbody>
       </table>
+      <table>
+        <thead>
+          <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Row 1, Column 1 <Modal/></td> 
+            <td>Row 1, Column 2 <Modal/></td>
+            <td>Row 1, Column 3 <Modal/></td>
+          </tr>
+          <tr>
+            <td>Row 2, Column 1 <Modal/></td>
+            <td>Row 2, Column 2 <Modal/></td>
+            <td>Row 2, Column 3 <Modal/></td>
+          </tr>
+          <tr>
+            <td>Row 3, Column 1 <Modal/></td>
+            <td>Row 3, Column 2 <Modal/></td>
+            <td>Row 3, Column 3 <Modal/></td>
+          </tr>
+        </tbody>
+      </table>
+
     </div>
   );
+
 }
 
 export default JobPosting;
