@@ -1,0 +1,24 @@
+.job-posting {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .job-posting h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .job-posting p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .job-posting ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }

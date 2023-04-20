@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function LandingPage() {
     return (
@@ -7,14 +8,10 @@ function LandingPage() {
         <p>Choose one of the following options:</p>
         <div className="row">
           <div className="col-sm-6">
-            <button className="btn btn-primary" onClick={() => this.props.history.push('/Consumer')}>
-              Go to Component 1
-            </button>
+            <Link to='/Consumer'>Consumer</Link>
           </div>
           <div className="col-sm-6">
-            <button className="btn btn-primary" onClick={() => this.props.history.push('/JobPositing')}>
-              Go to Component 2
-            </button>
+            <Link to='/JobPosting'>JobPosting</Link>
           </div>
         </div>
       </div>

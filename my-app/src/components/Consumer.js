@@ -3,14 +3,13 @@ import Form from 'react-bootstrap/Form';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import '../css/Consumer.css';
 function Consumer() {
   return (
     <Container>
       <Row>
         <Col>
           <Form>
-            <h1>Cloathing Form</h1>
+            <h1>Clothing Form</h1>
             <Form.Group controlId="firstName">
               <Form.Label>First Name</Form.Label>
               <Form.Control required name="firstName"/>
