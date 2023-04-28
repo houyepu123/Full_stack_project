@@ -75,9 +75,9 @@ function JobPosting() {
       <table>
         <thead>
           <tr>
-            <th>Column 1</th>
-            <th>Column 2</th>
-            <th>Column 3</th>
+            <th>Job Posting</th>
+            <th>Job Posting</th>
+            <th>Job Posting</th>
           </tr>
         </thead>
         <tbody>
